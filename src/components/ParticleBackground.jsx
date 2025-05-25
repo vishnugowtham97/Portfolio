@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import config from "../config/particles-config.json";
 
-const ParticleBackground = (containerRef) => {
+const ParticleBackground = ({containerRef}) => {
   const canvasRef = useRef(null);
   const particlesRef = useRef([]);
   const mousePosition = useRef({ x: null, y: null });
