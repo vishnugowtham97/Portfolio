@@ -10,6 +10,7 @@ const Experiences = () => {
       ref={containerRef}
       className="w-full"
       style={{ position: "relative" }}
+      id="work"
     >
       <ParticleBackground containerRef={containerRef} />
       <Timeline data={experiences} />
