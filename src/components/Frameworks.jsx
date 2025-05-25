@@ -1,6 +1,6 @@
 import { OrbitingCircles } from "./OrbitingCircles";
 
-export function Frameworks() {
+ function Frameworks() {
   const skills = [
     "auth0",
     "css3",
@@ -39,3 +39,5 @@ export function Frameworks() {
 const Icon = ({ src }) => (
   <img src={src} className="duration-200 rounded-sm hover:scale-110" />
 );
+
+export default Frameworks

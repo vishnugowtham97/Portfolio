@@ -1,14 +1,14 @@
 import { useEffect, useRef } from "react";
 import config from "../config/particles-config.json";
 
-const ParticleBackground = ({ containerRef }) => {
+const ParticleBackground = (containerRef) => {
   const canvasRef = useRef(null);
   const particlesRef = useRef([]);
   const mousePosition = useRef({ x: null, y: null });
   const animationFrameId = useRef(null);
 
   useEffect(() => {
-    if (!containerRef.current) return;
+  if (!containerRef || !containerRef.current ) return ;
 
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
