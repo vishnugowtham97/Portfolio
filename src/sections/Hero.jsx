@@ -22,7 +22,7 @@ const Hero = () => {
       id="home"
       ref={containerRef}
       style={{ position: "relative" }}
-      className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space"
+      className="flex w-full items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space"
     >
       <HeroText />
       {/* <ParallaxBackground /> */}
