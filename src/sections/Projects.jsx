@@ -16,7 +16,7 @@ const Projects = () => {
   const containerRef = useRef(null);
 
   return (
-    <div ref={containerRef} className="w-full" style={{ position: "relative" }}>
+    <div ref={containerRef}  id="project" className="w-full" style={{ position: "relative" }}>
       <ParticleBackground containerRef={containerRef} />
 
       <section
