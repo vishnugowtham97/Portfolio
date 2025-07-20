@@ -5,7 +5,7 @@ import HeroText from "../components/HeroText";
 import { Float, OrbitControls, useGLTF } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
-import { Suspense, useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import Loader from "../components/Loader";
 import * as THREE from "three";
 import { motion } from "framer-motion";
