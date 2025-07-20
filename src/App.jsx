@@ -6,7 +6,7 @@ import Experiences from "./sections/Experiences";
 import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
 import Footer from './sections/Footer';
-import Services from "./components/service";
+import Services from "./components/Service";
 
 const App = () => {
   return (
